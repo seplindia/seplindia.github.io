@@ -39,6 +39,16 @@
       </div>
     </nav>
 
+    <script>
+      var navUlActive = false;
+      document.querySelector("#navbar .hamburger").onclick = function () {
+        navUlActive = !navUlActive;
+        document.querySelector("#navbar ul").style.display = navUlActive
+          ? "flex"
+          : "none";
+      };
+    </script>
+
     <!-- ########################################################### -->
 
     <section class="showcase-area" id="showcase">
@@ -46,8 +56,10 @@
         <!-- <img class="mySlides" src="./img/img5.jpeg"> -->
         <h1 class="main-title">Shyam Electronic Private Limited Company</h1>
         <marquee class="par"
-          >विश्वास का एकमात्र नाम श्याम इलेक्ट्रॉनिक्स कंपनी... (7830508718,
-          9358406275.)
+          >विश्वास का एकमात्र नाम श्याम इलेक्ट्रॉनिक्स कंपनी... (<a
+            href="tel:+917830508718"
+            >7830508718</a
+          >, <a href="tel:+919358406275">9358406275</a>.)
         </marquee>
         <a href="#generator" class="btn btn-primary">Repairing</a>
         <p>
