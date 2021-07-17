@@ -456,8 +456,8 @@ body {
 #contact {
   padding: 2rem 0;
   font-family: "Monoton", cursive;
-  background-color: #112;
-  color: white;
+  /* background-color: #112; */
+  /* color: white; */
 }
 .contact-container {
   display: flex;
