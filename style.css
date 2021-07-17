@@ -259,7 +259,9 @@ body {
 .g-type {
   flex: 1 0 33%;
 }
-
+.g-container-2 {
+  justify-content: center;
+}
 .g-container img {
   display: block;
   width: 100%;
