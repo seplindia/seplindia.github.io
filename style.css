@@ -192,11 +192,11 @@ body {
 
 #about h2 {
   font-size: 1em;
-  color: rgb(116, 30, 9);
+  color: rgb(69, 185, 231);
 }
 .a1 {
   font-size: 1em;
-  color: orange;
+  color: rgb(51, 43, 27);
 }
 .a1:hover {
   color: black;
